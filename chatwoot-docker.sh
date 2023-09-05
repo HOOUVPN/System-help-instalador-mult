@@ -31,7 +31,7 @@ mkdir -p redis
 cd ../..
 
 # Executar os comandos restantes
-docker-compose run --rm rails bundle exec rails db:chatwoot_prepare
+#docker-compose run --rm rails bundle exec rails db:chatwoot_prepare
 docker-compose up -d
 
 # Configurar o proxy reverso no Nginx
